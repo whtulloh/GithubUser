@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_12dp"
+        android:layout_marginBottom="@dimen/dimen_12dp"
+        android:layout_marginTop="@dimen/dimen_12dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/github_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/download"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dimen_12dp"/>
+
+        <TextView
+            android:id="@+id/github_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/github_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dimen_16sp"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/dimen_12dp"
+            android:layout_below="@+id/github_image"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/github_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/github_username"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dimen_16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:layout_below="@+id/github_name"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/github_blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github_blog"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:paddingStart="@dimen/dimen_12dp"
+        android:paddingEnd="@dimen/dimen_12dp"/>
+
+    <TextView
+        android:id="@+id/github_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github_location"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:paddingStart="@dimen/dimen_12dp"
+        android:paddingEnd="@dimen/dimen_12dp"/>
+
+    <TextView
+        android:id="@+id/repo_create_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github_created"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:paddingStart="@dimen/dimen_12dp"
+        android:paddingEnd="@dimen/dimen_12dp"/>
+
+    <TextView
+        android:id="@+id/repo_update_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github_update"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:paddingStart="@dimen/dimen_12dp"
+        android:paddingEnd="@dimen/dimen_12dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_12dp"
+        android:layout_marginBottom="@dimen/dimen_12dp">
+
+        <Button
+            android:id="@+id/btn_repo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/github_button"
+            android:paddingStart="@dimen/dimen_6dp"
+            android:paddingEnd="@dimen/dimen_6dp"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

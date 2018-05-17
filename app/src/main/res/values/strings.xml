@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GitHub Users</string>
+    <string name="app_search">Search User Github...</string>
+    <string name="internet_connectivity_exception">No Internet Connectivity</string>
+
+    <string name="message_connectivity_exception">There is error while get internet connection</string>
+    <string name="message_other_retrofit_exception">Some serious problem in apps, contact admin</string>
+    <string name="message_loading">Loading, please wait......</string>
+
+    <string name="github_avatar">GitHub Avatar</string>
+    <string name="github_username">GitHub User Name</string>
+    <string name="github_name">GitHub Name</string>
+    <string name="github_id">GitHub ID: </string>
+    <string name="github_blog">GitHub Blog: </string>
+    <string name="github_created">Created Date: </string>
+    <string name="github_update">Update Date: </string>
+    <string name="github_location">Location: </string>
+    <string name="github_button">See Repos</string>
+
+    <string name="repo_name">Repository Name</string>
+    <string name="repo_desc">Repository Description</string>
+</resources>

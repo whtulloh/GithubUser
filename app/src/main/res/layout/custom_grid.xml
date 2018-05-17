@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_6dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/grid_item_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="@dimen/dimen_12dp"
+            android:src="@drawable/ic_cloud_upload"
+            android:layout_centerHorizontal="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/repo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/repo_name"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/dimen_16sp" />
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/repo_desc"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/repo_desc"-->
+        <!--android:textSize="@dimen/dimen_16sp" />-->
+
+</LinearLayout>
